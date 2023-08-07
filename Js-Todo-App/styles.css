@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #344fa1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #fff;
+  }
+  
+  #todo-list {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .todo {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: #031956;
+    border-radius: 10px;
+  }
+
+  .status{
+    color: #fff;
+  }
+  
+  .task {
+    color: #fff;
+  }
+  
+  .actions {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    gap: 10px;
+  }
+  
+  .edit-btn,
+  .delete-btn,
+  .status-btn {
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .status-btn{
+    background-color: #008000;
+    color: #fff;
+  }
+
+  .yellow{
+    background-color: yellow;
+    color: #000;
+  }
+  
+  #add-todo {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  #add-todo input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  #add-todo button {
+    padding: 5px 30px;
+    font-size: 16px;
+    background-color: #cb17ea;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+
+  #add-todo button:hover{
+    cursor: pointer;
+  }
+  
+  /* Edit Modal */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modal-content {
+    background-color: #9564f3;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+  }
+  
+  .modal h2 {
+    margin-top: 0;
+  }
+  
+  .modal input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .modal-actions {
+    text-align: right;
+  }
+  
+  .modal-actions button {
+    margin-left: 5px;
+    background-color: #2f047f;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  

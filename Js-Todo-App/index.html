@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Todo App</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>My Todos</h1>
+  <div id="add-todo">
+    <input type="text" id="task-input" placeholder="Enter a task">
+    <button id="submit-btn">Add Todo</button>
+  </div>
+  <div id="todo-list">
+    <!-- <div class="todo">
+      <span class="task">Task 1</span>
+      <div class="actions">
+        <button class="edit-btn">Edit</button>
+        <button class="delete-btn">Delete</button>
+        <button class="status-btn">Update Status</button>
+      </div> -->
+    </div>
+  </div>
+
+
+  <!-- Edit Modal -->
+  <div id="edit-modal" class="modal">
+    <div class="modal-content">
+      <h2>Edit Todo</h2>
+      <input type="text" id="edit-task-input" placeholder="Enter task">
+      <div class="modal-actions">
+        <button id="update-btn">Update</button>
+        <button id="cancel-btn">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
