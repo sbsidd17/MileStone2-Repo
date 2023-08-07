@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Blog App</title>
+</head>
+<body>
+    <header>
+      <h2>PWSkills Blog</h2>
+      <h2 id="addPostBtn">+</h2>
+    </header>
+    <main>
+      <!-- <div class="card">
+        <img src="https://th.bing.com/th/id/OIP.Tb7TF0yUriVDsHsLXur1cAHaE8?pid=ImgDet&rs=1" alt="">
+        <h3>Blog Title</h3>
+        <p>Blog Description</p>
+        <button>Read More...</button>
+      </div> -->
+    </main>
+    <div class="modal">
+      <div class="modal-content">
+        <div class="close"><p id="closeModalBtn">Close</p></div>
+        <input type="text" id="imageUrl" placeholder="Enter Blog Image Url" required>
+        <input type="text" id="title" placeholder="Enter Blog Title" required>
+        <input type="text" id="desc" placeholder="Enter Blog Description" required>
+        <textarea name="" id="content" cols="30" rows="10" placeholder="Write..." required></textarea>
+        <button id="addBlogBtn">Add Blog</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  user-select: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #d2ddf7;
+}
+
+#addPostBtn {
+  cursor: pointer;
+}
+
+main {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  gap: 20px;
+  width: 250px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  overflow: hidden;
+}
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  align-self: center;
+}
+
+.card button {
+  background-color: #f8d3d3;
+  color: #f64f4f;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal {
+  /* display: flex; */
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.active {
+  display: flex;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #dbe5f2;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.modal-content input,
+textarea {
+  padding: 10px;
+}
+
+.modal-content button {
+  background-color: #0f25e8;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-content button:hover {
+  background-color: #05117d;
+}
+
+.close {
+  color: #767474;
+  display: flex;
+  justify-content: end;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #000;
+}
+
+.blog{
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.blog-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #0977f6;
+  color: #fff;
+}
+
+.blog-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+
