@@ -3,9 +3,11 @@
 This repository contains three simple web applications built using core HTML, CSS, and JavaScript. Each application serves a specific purpose and provides a basic demonstration of web development concepts.
 Table of Contents
 
-    1. Blog App => Link : https://sage-dodol-50a588.netlify.app/
-    2. Movie Search App => Link : https://gleeful-bubblegum-b34d78.netlify.app/
-    3. Todo App => Link : https://dreamy-cassata-061f4f.netlify.app/
+1. Blog App => Link : https://sage-dodol-50a588.netlify.app/
+2. Movie Search App => Link : https://gleeful-bubblegum-b34d78.netlify.app/
+3. Todo App => Link : https://dreamy-cassata-061f4f.netlify.app/
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 1. Blog App
 
